@@ -1,9 +1,10 @@
-function MyOrder() {
+import Layout from '../../components/layout'
 
+function MyOrder() {
     return (
-        <div className="bg-red-100">
+        <layout>
           MyOrder
-        </div>
+        </layout>
     )
 }
 
